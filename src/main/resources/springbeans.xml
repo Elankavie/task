@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd"
+ >
+<bean id="user1" class="Onlineshoping.User">
+
+<property name="username" value="elan"></property>
+
+<property name="email" value="elan@gmail.com"></property>
+
+<property name="password" value="123"></property>
+
+<property name="shipping_address" value="anna nagar"></property>
+
+<property name="billing_address" value="cbe"></property>
+
+
+</bean> 
+<bean id="product1" class="Onlineshoping.Product">
+<property name="product_name" value="box"></property>
+<property name="price" value="35"></property>
+<property name="quantity_in_stock" value="4"></property>
+<property name="imagelocation" value="cbe"></property>
+</bean>
+
+
+</beans>
